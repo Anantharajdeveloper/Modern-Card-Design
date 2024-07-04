@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif !important;
+}
+
+body {
+    background: linear-gradient(to right, #8360c3, #2ebf91)!important;
+}
+
+.title_text {
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.title_head {
+    color: #ffffff !important;
+    font-weight: 600;
+}
+.info{
+    color: rgb(221, 221, 221);
+}
+
+/* ---------------------------Cart Start --------------------- */
+.cards {
+    padding-bottom: 30px;
+}
+
+.card {
+    border: none !important;
+    box-shadow: 0 5px 10px 1px #000000;
+    width: 15rem;
+}
+
+.birds_img {
+    width: 100%;
+    height: 250px !important;
+    object-fit: cover;
+}
+
+.percent {
+    top: 5px;
+    right: 0px;
+    padding: 10px;
+}
+
+.bx-heart {
+    font-size: 25px;
+}
+
+.offer {
+    background-color: rgb(238, 10, 10) !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+.heart {
+    color: #000;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 3px;
+    transition: .2s;
+}
+
+.heart:hover {
+    color: #fff;
+    background-color: rgb(238, 10, 10);
+}
+
+.new-price {
+    margin-bottom: 0 !important;
+}
+
+.old-price {
+    font-size: 12px;
+    text-align: end;
+    margin-bottom: 0 !important;
+}
+
+.circle {
+    display: inline-block !important;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 3px solid;
+    margin-top: 5px;
+}
+
+.gender {
+    font-size: 25px;
+}
+
+.male {
+    color: rgb(69, 69, 238);
+}
+
+.female {
+    color: rgb(241, 119, 140);
+}
+
+.star {
+    font-size: 18px;
+}
+
+.buy_btn {
+    color: rgb(124, 19, 124);
+    font-weight: 500;
+    text-decoration: none;
+}
+
+/* -------------------------- Cart end ------------------------ */
+
+
+/* -------------------------- Media Quary max-768px ------------------------ */
+@media (max-width:768px) {
+    .cards {
+        gap: 8px !important;
+    }
+
+    .col-md-3 {
+        width: 14rem !important;
+    }
+
+}
+
+/* -------------------------- Media Quary max-425px ------------------------ */
+@media (max-width:425px) {
+
+    .col-md-3 {
+        width: 21rem !important;
+    }
+
+    .title_text {
+        text-align: center;
+    }
+}
